@@ -143,6 +143,16 @@ set nowritebackup
 set noswapfile
 
 
+vnoremap <C-h> <Esc>
+inoremap <C-h> <Esc>
+"inoremap <Esc> <nop>
+"vnoremap <Esc> <nop>
+
+
+"lh to line head le to line end
+nmap lh ^
+nmap le $
+
 " Setup Pathogen to manage your plugins
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
 " curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
